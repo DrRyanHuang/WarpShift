@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+output/
+*.local.json
+
+# Local documentation; intentionally excluded from published history.
+/全流程.md
+/MOPD-Teacher权重切换.md
+/PROJECT_GUIDE.md

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warpshift"
+version = "0.1.0"
+description = "Exact model switching for a resident SGLang engine"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["warpshift*"]
+
+[tool.ruff]
+line-length = 119
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
